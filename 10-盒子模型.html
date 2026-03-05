@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div[class*='box'] {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    .box1 {
+      border: 1px solid red;
+    }
+
+    .box2 {
+      border: 1px dashed red;
+    }
+
+    .box3 {
+      border: 1px dotted red;
+    }
+
+    .box4 {
+      border-top: 1px dashed red;
+      border-right: 2px solid green;
+      border-bottom: 3px solid blue;
+      border-left: 4px dotted pink;
+    }
+
+    h2 {
+      border-bottom: 1px solid red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1">实线</div>
+  <div class="box2">虚线</div>
+  <div class="box3">点线</div>
+  <div class="box4">不同边框1</div>
+  <h2>单边框</h2>
+</body>
+
+</html>
