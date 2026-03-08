@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div[class*='box'] {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+    }
+
+    .box1 {
+      border: 10px solid red;
+
+      padding: 10px;
+      line-height: 200px;
+      box-sizing: content-box;
+    }
+
+    .box2 {
+      border: 10px dashed red;
+      padding: 10px;
+      line-height: 160px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1">content-box</div>
+  <div class="box2">border-box</div>
+</body>
+
+</html>
