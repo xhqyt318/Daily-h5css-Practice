@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div[class*='box'] {
+      width: 250px;
+      height: 100px;
+      margin: 20px;
+      /* background-color: pink; */
+      background: linear-gradient(45deg, pink, red);
+    }
+
+    .text {
+      font-size: 30px;
+      font-weight: bold;
+      background: linear-gradient(45deg, pink, red);
+      -webkit-background-clip: text;
+      background-clip: text;
+      /* 文本填充颜色 */
+      -webkit-text-fill-color: transparent;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1"></div>
+  <div class="text">靶心挂在嘴角</div>
+  <button>点击我</button>
+</body>
+
+</html>
